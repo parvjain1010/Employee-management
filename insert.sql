@@ -1,0 +1,7 @@
+INSERT INTO AllowedHolidays(Company_ID,Holiday_ID) VALUES(?,?)
+INSERT INTO ApplicableAt(Holiday_ID,Region_ID) VALUES(?,?)
+INSERT INTO Benefits(Type,Name) VALUES(?,?)
+INSERT INTO BenefitsProvided(Company_ID,Benefit_ID) VALUES(?,?)
+INSERT INTO CalendarHoliday(Name,EndDate,StartDate) VALUES(?,?,?)
+INSERT INTO DepartmentsAvailable(Company_ID,Departments) VALUES(?,?)
+INSERT INTO Eligibility(Name,Type,Constraints) VALUES(?,?,?)
